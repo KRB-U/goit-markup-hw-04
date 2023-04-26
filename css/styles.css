@@ -275,11 +275,23 @@ img {
 
 /* ==========================HERO ========================== */
 .hero {
-  background-color: var(--navy-blue-color);
+  /* background-color: var(--navy-blue-color); */
   letter-spacing: 0.03em;
 
   padding-top: 188px;
   padding-bottom: 188px;
+  /* outline: 2px solod red; */
+}
+
+.overlay {
+  /* max-width: 1440px; */
+  min-height: 600px;
+  margin-left: auto;
+  margin-bottom: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: cover;
+  background-image: linear-gradient (to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-pic.jpg);
 }
 
 /* text hero 1 */
