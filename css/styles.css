@@ -633,10 +633,12 @@ gap: 16px;
 }
 
 .social-list-item {
-  display: block;
+  display: block; 
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #ffffff;
-
+  background-color: var(--iris-button-color);
+}
+.social-list-item:is(:hover, :focus){
+  background-color: var(--green-color)
 }
