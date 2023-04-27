@@ -653,9 +653,9 @@ img {
   background-color: var(--green-color);
 }
 
-.social-list-item-in {
-  /* background-image: url(../images/social-icon/instagram.svg); */
+/* .social-list-item-in {
+  background-image: url(../images/social-icon/instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px 24px;
-}
+} */
