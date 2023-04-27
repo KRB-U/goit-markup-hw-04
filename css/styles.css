@@ -20,6 +20,10 @@
   --cornflower-color: #e7e9fc;
   /* Light > Light mode backgrounds. Light mode Dialogs/alerts */
   --cloud-background-color: #f4f4fd;
+  /* Modal overlay> Overlay> NAVY BLUE modal */
+  --navyblue-modal-color: #2e2f42;
+  /* Hero background > Hero image background */
+  --hero-background-color: #2e2f42;
   /* White background > Header,  team card background */
   --white-color: #ffffff;
   /* Modal background  */
@@ -142,6 +146,8 @@ img {
 
 .border-header {
   border-bottom: 1px solid var(--cornflower-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* .menu-item:not(:last-child) {
@@ -275,25 +281,26 @@ img {
 
 /* ==========================HERO ========================== */
 .hero {
-  background-color: var(--navy-blue-color);
+  background-color: var(--hero-background-color);
   letter-spacing: 0.03em;
-/* max-width: 1440px; */
+  /* max-width: 1440px; */
   padding-top: 188px;
   padding-bottom: 188px;
   outline: 2px solod red;
 }
 
 .overlay {
-  max-width: 1440px;
-  background-image: url(../images/hero-pic.jpg);
-  min-height: 600px;
+  width: 1440px;
   margin-left: auto;
   margin-bottom: auto;
   background-repeat: no-repeat;
   background-position: center;
-  border-style: cover;
-  background-image: linear-gradient
-      (to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  /* border-style: cover; */
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/hero-pic.jpg);
 }
 
@@ -336,7 +343,9 @@ img {
 
   min-width: 169px;
   height: 56px;
+
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .but-primary:is(:hover, :focus) {
@@ -427,7 +436,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--cloud-background-color);
-  
 }
 
 /* ==========================/scroll sec========================= */
@@ -473,8 +481,8 @@ img {
 .employees-card-content-wrapper {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  padding: 32px 16px;
   background-color: var(--white-color);
 }
 
@@ -506,6 +514,22 @@ img {
   color: var(--slate-color);
 }
 
+/* =================================/team============================ */
+
+/* ================custumers=============== */
+.customers {
+  outline: 2px solid red;
+}
+
+.box {
+  display: inline-block;
+  border: 4px solid var(--light-slate-color);
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+  gap: 24px;
+}
+
 /* ==========================portfolio========================== */
 
 .flex-container {
@@ -516,6 +540,7 @@ img {
 
 .alignment-list-studio {
   flex-basis: calc((100% - 24px * 2) / 3);
+  
 }
 
 .head-logo-port {
@@ -534,6 +559,8 @@ img {
   letter-spacing: 0.04em;
   border: 1px solid var(--cornflower-color);
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 
   display: flex;
   flex-direction: row;
@@ -562,4 +589,19 @@ img {
   justify-content: center;
   align-items: flex-start;
   padding: 32px 16px;
+}
+
+.portfolio-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+  margin-bottom: 8px;
+
+}
+
+.employees-card-portfolio-wrapper:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
