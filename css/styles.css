@@ -275,12 +275,12 @@ img {
 
 /* ==========================HERO ========================== */
 .hero {
-  /* background-color: var(--navy-blue-color); */
+  background-color: var(--navy-blue-color);
   letter-spacing: 0.03em;
 /* max-width: 1440px; */
   padding-top: 188px;
   padding-bottom: 188px;
-  /* outline: 2px solod red; */
+  outline: 2px solod red;
 }
 
 .overlay {
