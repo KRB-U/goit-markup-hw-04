@@ -642,3 +642,10 @@ gap: 16px;
 .social-list-item:is(:hover, :focus){
   background-color: var(--green-color)
 }
+
+.social-list-item-in {
+  background-image: url(../images/social-icon/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
