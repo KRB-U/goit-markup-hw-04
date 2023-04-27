@@ -533,6 +533,7 @@ img {
 .link-company {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .box {
@@ -543,7 +544,7 @@ img {
   border-radius: 4px;
   width: 168px;
   height: 88px;
-  gap: 24px;
+ 
 }
 
 /* ==========================portfolio========================== */
