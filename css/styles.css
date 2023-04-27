@@ -187,7 +187,7 @@ img {
 /* ===================/footer logo================= */
 
 .logoblock{
-
+margin-right: 120px;
 }
 
 /* Web logo part*/
@@ -617,5 +617,5 @@ img {
 
 .social-media {
   display: flex;
-  gap: 120px;
+
 }
