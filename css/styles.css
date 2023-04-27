@@ -540,7 +540,6 @@ img {
 
 .alignment-list-studio {
   flex-basis: calc((100% - 24px * 2) / 3);
-  
 }
 
 .head-logo-port {
@@ -598,7 +597,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   margin-bottom: 8px;
-
 }
 
 .employees-card-portfolio-wrapper:hover {
