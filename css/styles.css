@@ -102,6 +102,11 @@ body {
   margin: 0 auto;
 }
 
+.custumers-box {
+display: flex;  
+flex-wrap: wrap;
+}
+
 img {
   display: block;
   max-width: 100%;
