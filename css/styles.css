@@ -534,17 +534,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .box {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   width: 168px;
   height: 88px;
- 
+  justify-content: center;
 }
 
 /* ==========================portfolio========================== */
