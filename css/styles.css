@@ -102,10 +102,10 @@ body {
   margin: 0 auto;
 }
 
-.custumers-box {
+/* .custumers-box {
 display: flex;  
 flex-wrap: wrap;
-}
+} */
 
 img {
   display: block;
@@ -613,4 +613,5 @@ img {
 
 .social-media {
   display: flex;
+  gap: 120px
 }
