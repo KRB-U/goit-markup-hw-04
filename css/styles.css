@@ -530,9 +530,14 @@ img {
   outline: 2px solid red;
 }
 
-.box {
+.link-company {
   display: flex;
   flex-wrap: wrap;
+}
+
+.box {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
