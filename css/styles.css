@@ -228,7 +228,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-background-color);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   max-width: 264px;
 }
 
@@ -613,5 +613,5 @@ img {
 
 .social-media {
   display: flex;
-  gap: 120px
+  gap: 120px;
 }
