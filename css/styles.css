@@ -243,7 +243,7 @@ img {
   color: var(--white-color);
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .menu-link {
