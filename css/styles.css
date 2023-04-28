@@ -580,6 +580,16 @@ img {
   height: 88px;
 }
 
+.customers-list-icon {
+  fill: var(--light-slate-color);
+ }
+
+.customers-list-icon:hover {
+ fill: var(--ocean-button-color);
+}
+
+
+
 /* .customers-list-link {
   display: flex;
   justify-content: center;
@@ -690,3 +700,4 @@ fill: var(--ocean-button-color);
 .social-list-footer-item:is(:hover, :focus) {
   background-color: var(--green-color);
 }
+
