@@ -640,6 +640,7 @@ img {
   width: 200px;
   margin: 0 auto;
   gap: 16px;
+  
 }
 
 .social-list-item {
@@ -648,6 +649,7 @@ img {
   height: 50px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
+  
 }
 .social-list-item:is(:hover, :focus) {
   background-color: var(--green-color);
