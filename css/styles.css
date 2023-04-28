@@ -467,13 +467,27 @@ img {
 }
 
 .social-list-link {
- display: block;
- width: 40px;
- height: 40px;
- border-radius: 50%;
- background-color: var(--iris-button-color); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-button-color);
 }
 
+.social-list-link:is(:hover, :focus) {
+  background-color: var(--ocean-button-color);
+}
+
+.social-list {
+  display: flex;
+  gap: 24px;
+}
+
+.social-list-icon {
+  fill: var(--cloud-background-color);
+}
 /* ==========================/Scroll-section========================== */
 
 /* ========================What are we doing========================== */
@@ -529,6 +543,7 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .employees-description {
@@ -643,28 +658,28 @@ img {
 
 .social-list-footer {
   display: flex;
+
   justify-content: space-between;
   width: 200px;
   margin: 0 auto;
   gap: 16px;
-  
 }
 
 .social-list-footer-item {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
-  
 }
 .social-list-footer-item:is(:hover, :focus) {
   background-color: var(--green-color);
 }
 
-.social-list-item-in {
-  /* background-image: url(../images/social-icon/instagram.svg); */
+/* .social-list-item-in {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px 24px;
-}
+} */
