@@ -559,26 +559,42 @@ img {
 
 /* =================================/team============================ */
 
-/* ================custumers=============== */
+/* ======================================Custumers=============================== */
 .customers {
   outline: 2px solid red;
 }
 
-.link-company {
+/* .link-company {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 24px;
-}
+} */
 
-.box {
+.customers-list-items {
+  display: flex;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   width: 168px;
   height: 88px;
-  justify-content: center;
 }
+
+.customers-list-icon {
+  width: 104px;
+  height: 156px;
+}
+
+/* .customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-list-link:is(:hover, :focus) .customers-list-icon {
+fill: var(--ocean-button-color);
+} */
+/* ======================================/Custumers=============================== */
 
 /* ==========================portfolio========================== */
 
@@ -680,8 +696,3 @@ img {
   background-color: var(--green-color);
 }
 
-/* .social-list-item-in {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
-} */
