@@ -492,6 +492,7 @@ img {
 
 .social-list-icon {
   fill: var(--cloud-background-color);
+  /* color: var(--light-slate-color); */
 }
 
 /* .scroll-list-icon {
@@ -597,6 +598,7 @@ img {
   border-radius: 4px;
   width: 168px;
   height: 88px;
+  color: var(--light-slate-color);
 }
 
 .customers-list-link:is(:hover, :focus) {
