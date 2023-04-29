@@ -467,6 +467,10 @@ img {
   text-align: center;
 }
 
+.social-list {
+  justify-content: center;
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -677,7 +681,7 @@ img {
 
 .social-list-footer {
   display: flex;
-
+  justify-content: center;
   justify-content: space-between;
   width: 200px;
   margin: 0 auto;
