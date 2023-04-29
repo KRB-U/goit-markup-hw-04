@@ -572,33 +572,31 @@ img {
   gap: 24px;
 } */
 
-.customers-list-items {
+.customers-list-icon {
+  fill: var(--light-slate-color);
   display: flex;
+  align-items: center;
+  width: 104px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.customers-list-icon:hover {
+  fill: var(--ocean-button-color);
+}
+
+.customers-list-link {
+  display: flex;
+  align-items: center;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   width: 168px;
   height: 88px;
 }
 
-.customers-list-icon {
-  fill: var(--light-slate-color);
- }
-
-.customers-list-icon:hover {
- fill: var(--ocean-button-color);
-}
-
-
-
-/* .customers-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .customers-list-link:is(:hover, :focus) .customers-list-icon {
-fill: var(--ocean-button-color);
-} */
+  fill: var(--ocean-button-color);
+}
 /* ======================================/Custumers=============================== */
 
 /* ==========================portfolio========================== */
@@ -700,4 +698,3 @@ fill: var(--ocean-button-color);
 .social-list-footer-item:is(:hover, :focus) {
   background-color: var(--green-color);
 }
-
