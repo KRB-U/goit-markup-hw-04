@@ -494,6 +494,10 @@ img {
   fill: var(--cloud-background-color);
 }
 
+/* .scroll-list-icon {
+  width: 104;
+  height: 56;
+} */
 /* ==========================/Scroll-section========================== */
 
 /* ========================What are we doing========================== */
@@ -578,8 +582,7 @@ img {
 
 .customers-list-icon {
   fill: var(--light-slate-color);
-  width: 104;
-  height: 56;
+
 }
 
 .customers-list-icon:hover {
