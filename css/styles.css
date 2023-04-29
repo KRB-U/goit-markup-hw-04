@@ -493,6 +493,11 @@ img {
 .social-list-icon {
   fill: var(--cloud-background-color);
 }
+
+.scroll-list-icon {
+  width: 104;
+  height: 56;
+}
 /* ==========================/Scroll-section========================== */
 
 /* ========================What are we doing========================== */
