@@ -188,6 +188,7 @@ img {
 
 .logoblock {
   margin-right: 120px;
+  align-items: baseline;
 }
 
 /* Web logo part*/
