@@ -593,7 +593,7 @@ img {
 }
 
 .customers-list-icon:is(:hover, :focus) {
-  fill: var(--ocean-button-color);
+  fill: currentColor;
 }
 
 .customers-list-link {
