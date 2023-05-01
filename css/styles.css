@@ -609,6 +609,7 @@ img {
 
 .customers-list-link:is(:hover, :focus) {
   border-color: var(--ocean-button-color);
+  color: var(--ocean-button-color);
 }
 /* ======================================/Custumers=============================== */
 
