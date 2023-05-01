@@ -577,8 +577,8 @@ img {
 
 .customers-list-icon {
   fill: var(--light-slate-color);
-  width: 104;
-  height: 56;
+  width: 104px;
+  height: 56px;
 }
 
 .customers-list-icon:hover {
