@@ -592,8 +592,7 @@ img {
   height: 56px; */
 }
 
-.customers-list-icon:hover, 
-.customers-list-icon:focus {
+.customers-list-icon:is(:hover, :focus) {
   fill: var(--ocean-button-color);
 }
 
@@ -705,7 +704,7 @@ img {
   gap: 16px;
 }
 
-.social-list-footer-item {
+.social-list-footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,7 +713,7 @@ img {
   border-radius: 50%;
   background-color: var(--iris-button-color);
 }
-.social-list-footer-item:is(:hover, :focus) {
+.social-list-footer-link:is(:hover, :focus) {
   background-color: var(--green-color);
 }
 
