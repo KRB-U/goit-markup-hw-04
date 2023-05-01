@@ -495,10 +495,6 @@ img {
   /* color: var(--light-slate-color); */
 }
 
-/* .scroll-list-icon {
-  width: 104;
-  height: 56;
-} */
 /* ==========================/Scroll-section========================== */
 
 /* ========================What are we doing========================== */
@@ -569,9 +565,6 @@ img {
 /* =================================/team============================ */
 
 /* ======================================Custumers=============================== */
-/* .customers {
-  outline: 2px solid red;
-} */
 
 .customers-list {
   display: flex;
@@ -579,10 +572,13 @@ img {
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
+
 }
 
 .customers-list-icon {
   fill: var(--light-slate-color);
+  width: 104;
+  height: 56;
 }
 
 .customers-list-icon:hover {
@@ -707,5 +703,5 @@ img {
 }
 
 .social-block {
-  align-items: baseline
+  align-items: baseline;
 }
