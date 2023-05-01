@@ -470,10 +470,10 @@ img {
   text-align: center;
 }
 
-.retreat-team {
+/* .retreat-team {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 .social-list {
   justify-content: center;
@@ -533,8 +533,8 @@ img {
 }
 
 .backing-team {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .employees-card-content-wrapper {
