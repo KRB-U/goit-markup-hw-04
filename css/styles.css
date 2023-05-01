@@ -690,6 +690,7 @@ img {
 
 .social-media {
   display: flex;
+  align-items: baseline;
 }
 
 .social-list-footer {
