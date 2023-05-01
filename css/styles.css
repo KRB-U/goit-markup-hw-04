@@ -592,7 +592,7 @@ img {
   height: 56px;
 }
 
-.customers-list-icon:hover {
+.customers-list-icon:is(:hover, :focus) {
   fill: var(--ocean-button-color);
 }
 
@@ -608,7 +608,6 @@ img {
 }
 
 .customers-list-link:is(:hover, :focus) {
-  fill: var(--ocean-button-color);
   border-color: var(--ocean-button-color);
 }
 /* ======================================/Custumers=============================== */
