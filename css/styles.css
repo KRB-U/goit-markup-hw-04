@@ -588,11 +588,12 @@ img {
 
 .customers-list-icon {
   fill: var(--light-slate-color);
-  width: 104px;
-  height: 56px;
+  /* width: 104px;
+  height: 56px; */
 }
 
-.customers-list-icon:is(:hover, :focus) {
+.customers-list-icon:hover, 
+.customers-list-icon:focus {
   fill: var(--ocean-button-color);
 }
 
