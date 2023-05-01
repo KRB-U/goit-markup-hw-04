@@ -587,13 +587,13 @@ img {
 }
 
 .customers-list-icon {
-  fill: var(--light-slate-color);
+  fill: currentColor;
   /* width: 104px;
   height: 56px; */
 }
 
 .customers-list-icon:is(:hover, :focus) {
-  fill: currentColor;
+  /* fill: var(--ocean-button-color); */
 }
 
 .customers-list-link {
