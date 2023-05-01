@@ -583,7 +583,6 @@ img {
 
 .customers-list-icon {
   fill: var(--light-slate-color);
-
 }
 
 .customers-list-icon:hover {
@@ -705,4 +704,8 @@ img {
 }
 .social-list-footer-item:is(:hover, :focus) {
   background-color: var(--green-color);
+}
+
+.social-block {
+  align-items: baseline
 }
