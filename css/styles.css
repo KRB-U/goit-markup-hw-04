@@ -500,7 +500,6 @@ img {
 
 .social-list-icon {
   fill: var(--cloud-background-color);
-  /* color: var(--light-slate-color); */
 }
 
 /* ==========================/Scroll-section========================== */
@@ -590,10 +589,6 @@ img {
   fill: currentColor;
   /* width: 104px;
   height: 56px; */
-}
-
-.customers-list-icon:is(:hover, :focus) {
-  /* fill: var(--ocean-button-color); */
 }
 
 .customers-list-link {
