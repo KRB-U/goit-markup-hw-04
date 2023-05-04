@@ -449,8 +449,8 @@ img {
   width: 264px;
   height: 112px;
   border-radius: 4px;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--cloud-background-color);
@@ -616,6 +616,7 @@ img {
 }
 
 .link-examples-work {
+  position: relative;
   display: block;
 }
 
@@ -679,6 +680,19 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   margin-bottom: 8px;
+}
+
+.portfolio-card-descript {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--cloud-background-color);
+  background-color: var(--iris-button-color);
+  /* background-size: cover; */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
 }
 
 .social-media {
