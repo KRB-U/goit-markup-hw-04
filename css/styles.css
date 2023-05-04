@@ -449,8 +449,8 @@ img {
   width: 264px;
   height: 112px;
   border-radius: 4px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--cloud-background-color);
